@@ -1,11 +1,13 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import QuizComponent from '@/components/QuizComponent';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-purple-50 py-8 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">Multiple Choice Quiz</h1>
+        <QuizComponent />
       </div>
     </div>
   );
